@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blue Books - Propose A Book</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Blue Books</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="join.html">Join Us</a></li>
+					<li><a href="propose.html">Propose A Book</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="propose">
+		<div class="container">
+			<h1>Propose A Book</h1>
+			<p>Have a book you'd like to recommend to the Blue Books community? Fill out the form below to let us know.</p>
+			<form method="post" action="process.php">
+				<label for="title">Book Title:</label>
+				<input type="text" id="title" name="title" required><br>
+
+				<label for="author">Author:</label>
+				<input type="text" id="author" name="author" required><br>
+
+				<label for="description">Description:</label>
+				<textarea id="description" name="description" required></textarea><br>
+
+				<label for="image">Cover Image URL:</label>
+				<input type="text" id="image" name="image"><br>
+
+				<input type="submit" value="Propose">
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Blue Books</p>
+		</div>
+	</footer>
+</body>
+</html>
