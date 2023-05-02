@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blue Books - Books</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Blue Books</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="join.html">Join Us</a></li>
+					<li><a href="propose.html">Propose A Book</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="books">
+		<div class="container">
+			<h1>Featured Books</h1>
+			<ul>
+				<li><a href="#">The Great Gatsby</a></li>
+				<li><a href="#">To Kill a Mockingbird</a></li>
+				<li><a href="#">1984</a></li>
+				<li><a href="#">Pride and Prejudice</a></li>
+				<li><a href="#">The Catcher in the Rye</a></li>
+			</ul>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Blue Books</p>
+		</div>
+	</footer>
+</body>
+</html>
