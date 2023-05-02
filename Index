@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blue Books - Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Blue Books</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="join.html">Join Us</a></li>
+					<li><a href="propose.html">Propose A Book</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="hero">
+		<div class="container">
+			<h1>Welcome to Blue Books</h1>
+			<p>Find your next great read with us.</p>
+		</div>
+	</section>
+
+	<section id="about">
+		<div class="container">
+			<h2>About Us</h2>
+			<p>Welcome to Blue Books, your go-to source for book recommendations and savings. Our community of readers is dedicated to sharing our favorite books and discovering new ones together. Whether you're a lifelong bookworm or just looking for your next read, we've got you covered.</p>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Blue Books</p>
+		</div>
+	</footer>
+</body>
+</html>
