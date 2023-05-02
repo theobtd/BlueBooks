@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blue Books - Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<h1>Blue Books</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="books.html">Books</a></li>
+					<li><a href="join.html">Join Us</a></li>
+					<li><a href="propose.html">Propose A Book</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="contact">
+		<div class="container">
+			<h1>Contact Us</h1>
+			<p>Have a question or comment? Use the form below to get in touch with us.</p>
+			<form method="post" action="process.php">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required><br>
+
+				<label for="email">Email address:</label>
+				<input type="text" id="email" name="email" required><br>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea><br>
+
+				<input type="submit" value="Send">
+			</form>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2023 Blue Books</p>
+		</div>
+	</footer>
+</body>
+</html>
